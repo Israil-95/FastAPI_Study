@@ -3,3 +3,11 @@ venv/
 __pycache__/
 .env
 *.pyc
+
+*
+
+
+!main.py
+!models.py
+!database.py
+!.gitignore
