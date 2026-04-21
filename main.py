@@ -30,6 +30,7 @@ from pydantic import BaseModel
 from database import get_db
 import models
 from database import engine
+models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
