@@ -11,4 +11,9 @@ __pycache__/
 !models.py
 !database.py
 !docker-compose.yml
+!requirements.txt
 !.gitignore
+!app/
+!app/**
+app/**/__pycache__/
+app/**/*.pyc
